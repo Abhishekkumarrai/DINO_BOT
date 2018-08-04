@@ -19,9 +19,10 @@ from numpy import *
 
 
 class cordinates():
-    replay=(338,326)
-    dinosaur=(75,332)
+    replay=(338,326)      #The coordinates of the replay button
+    dinosaur=(75,332)     #the upper coordinate or the head of the dino
     up=(75,323)
+    # the coordinates should be taken according to your screen / Asimple way wud be to take a screenshot and open in paint to get the coordinates 
     
 def restartgame():
     pyautogui.click(cordinates.replay)
